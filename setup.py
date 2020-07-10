@@ -5,7 +5,11 @@ setup(
     version='0.1',
     py_modules=['nab'],
     install_requires=[
-        'Click',
+        'click',
+        'matplotlib',
+        'pandas',
+        'pymysql',
+        'ua_parser',
     ],
     entry_points='''
         [console_scripts]
